@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 9px;
+    font-family: sans-serif;
+    align-items: center;
+}
+.nav-item ul{
+    display: flex;
+    gap: 15px;
+}
+.nav-item ul li  {
+    list-style: none;
+    font-size: 20px;
+    padding: 4px;
+   
+   
+}
+.nav-item ul li a{
+    text-decoration: none;
+    color: yellow;
+}
+.profile h3 a {
+   text-decoration: none;
+   color: yellow;
+}
+
+
+/* sign up  */
+.signup{
+    width: 400px;
+   margin: 20px auto;
+   text-align: center;
+   background-color: rgba(255, 235, 205, 0.623);
+   padding: 30px;
+   border-radius: 7px;
+   position: relative;
+}
+.signup h2{
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+.content input{
+    width: 300px;
+    padding: 10px;
+    margin-top:25px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.content div{
+    text-align: center;
+}
+.content div button{
+    width: 120px;
+    margin: 15px auto;
+    padding: 8px;
+    cursor: pointer;
+ border-radius: 6px;
+ background-color: rgb(228, 201, 166);
+ color: black;
+ font-size: 16px;
+ font-weight: 700;
+}
+
+
+.google{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 600;
+   
+}
+.google img{
+    width: 43px;
+}
+.forgot{
+    position: absolute;
+    right: 8px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: blue;
+    cursor: pointer;
+    
+}
+.create a{
+    font-family: sans-serif;
+    font-weight: 500;
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+}
+.signError{
+    color: red;
+    margin-top: 8px;
+    font-family: sans-serif;
+}
+.email{
+    margin-top: 5px !important;
+}
+.password{
+    margin-top: 10px !important;
+}
+.logErorr{
+    margin-bottom: -22px !important;
+    margin-top: 15px;
+    color: red;
+    font-family: sans-serif;
+}
+.unshow{
+    display: flex;
+    cursor: pointer;
+}
+.logout{
+    display: none;
+    cursor: pointer;
+    color: yellow;
+}
+
+.userInfo{
+    width: 300px;
+    margin: 20px auto;
+    background-color: rgb(158, 216, 194);
+    padding: 30px;
+    font-family: sans-serif;
+    height: 270px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.userInfo h2{
+    margin-bottom: 16px;
+    font-size: 28px;
+}
+.userInfo h4{
+    margin-bottom: 14px;
+    font-size: 18px;
+}
+.userInfo p{
+    margin-top: 14px;
+    margin-bottom: 15px;
+    color: red;
+    font-weight: 700;
+}
